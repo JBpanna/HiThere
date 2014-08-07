@@ -1,0 +1,36 @@
+<html>
+
+	<body>
+
+		<h1>The Whatever Site
+		</h1>
+
+		<div class="list_shell">
+			<%@people.each do |person| %>
+				<div class="list_part">
+					<h2>Some Whatever Stuff
+					</h2>
+					<h3><%=person.whatever%>
+					</h3>
+				</div>
+			<%end%>
+		</div>
+
+		<h1>The Whatever Text Entry
+		</h1>
+
+		<div class="form_shell">
+			
+			<h3 class="text_entry"> I write stuff here:
+			</h3>
+			<input class="text_input" type="text" name="text_input">
+
+		</div>
+
+		</br>
+
+		<button name="submit_info" class="submit_button">Submit My Stuff</button>
+
+	</body>
+
+</html>

@@ -1,0 +1,12 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {background-color: gray; margin: 0px; padding: 3%;}
+.hide {display: none;}
+h3 {color: #6381b8; padding: 1%;}
+.submit_button {background-color: #556e9c; color: navy; font-size: 18px; border: solid black 2px; box-shadow: 5px, 5px, 5px;}
+.submit_button:active {background-color: #374866; color: black; border: none; box-shadow: none;}
+h1 {color: navy; font-size: 48px;}
+.list_shell {background-color: rgba(0,0,0,0.3); width: 100%;}
+.form_shell {background-color: rgba(0,0,0,0.6); width: 100%;}
+.text_input {border: solid 2px navy; width: 90%; margin: 5%;}
